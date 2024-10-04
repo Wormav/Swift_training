@@ -6,6 +6,25 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		3F0A607E2CB0670600327D97 /* RswiftLibrary in Frameworks */ = {isa = PBXBuildFile; productRef = 3F0A607D2CB0670600327D97 /* RswiftLibrary */; };
+		3F0A60862CB06CFA00327D97 /* AppStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0A60852CB06CFA00327D97 /* AppStyle.swift */; };
+		3F0A608C2CB0711300327D97 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0A608B2CB0711300327D97 /* String+Extension.swift */; };
+		3F158A0D2CB0601D00FB82F1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F1589FE2CB0601D00FB82F1 /* Preview Assets.xcassets */; };
+		3F158A0E2CB0601D00FB82F1 /* AvenirNext-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3F158A002CB0601D00FB82F1 /* AvenirNext-Bold.ttf */; };
+		3F158A0F2CB0601D00FB82F1 /* AvenirNext-DemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3F158A012CB0601D00FB82F1 /* AvenirNext-DemiBold.ttf */; };
+		3F158A102CB0601D00FB82F1 /* AvenirNext-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3F158A022CB0601D00FB82F1 /* AvenirNext-Medium.ttf */; };
+		3F158A112CB0601D00FB82F1 /* AvenirNext-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3F158A032CB0601D00FB82F1 /* AvenirNext-Regular.ttf */; };
+		3F158A122CB0601D00FB82F1 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F158A052CB0601D00FB82F1 /* Colors.xcassets */; };
+		3F158A132CB0601D00FB82F1 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 3F158A062CB0601D00FB82F1 /* Localizable.xcstrings */; };
+		3F158A142CB0601D00FB82F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F158A082CB0601D00FB82F1 /* Assets.xcassets */; };
+		3F158A162CB0601D00FB82F1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F158A092CB0601D00FB82F1 /* ContentView.swift */; };
+		3F158A172CB0601D00FB82F1 /* tripManagerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F158A0B2CB0601D00FB82F1 /* tripManagerApp.swift */; };
+		3F158A1A2CB0602400FB82F1 /* tripManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F158A182CB0602400FB82F1 /* tripManagerTests.swift */; };
+		3F158A1E2CB0602800FB82F1 /* tripManagerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F158A1B2CB0602800FB82F1 /* tripManagerUITests.swift */; };
+		3F158A1F2CB0602800FB82F1 /* tripManagerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F158A1C2CB0602800FB82F1 /* tripManagerUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		3F926EB42CAF2593005C8307 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -24,34 +43,33 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3F0A60852CB06CFA00327D97 /* AppStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStyle.swift; sourceTree = "<group>"; };
+		3F0A608B2CB0711300327D97 /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		3F1589FE2CB0601D00FB82F1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3F158A002CB0601D00FB82F1 /* AvenirNext-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AvenirNext-Bold.ttf"; sourceTree = "<group>"; };
+		3F158A012CB0601D00FB82F1 /* AvenirNext-DemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AvenirNext-DemiBold.ttf"; sourceTree = "<group>"; };
+		3F158A022CB0601D00FB82F1 /* AvenirNext-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AvenirNext-Medium.ttf"; sourceTree = "<group>"; };
+		3F158A032CB0601D00FB82F1 /* AvenirNext-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AvenirNext-Regular.ttf"; sourceTree = "<group>"; };
+		3F158A052CB0601D00FB82F1 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		3F158A062CB0601D00FB82F1 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+		3F158A082CB0601D00FB82F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F158A092CB0601D00FB82F1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3F158A0A2CB0601D00FB82F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F158A0B2CB0601D00FB82F1 /* tripManagerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tripManagerApp.swift; sourceTree = "<group>"; };
+		3F158A182CB0602400FB82F1 /* tripManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tripManagerTests.swift; sourceTree = "<group>"; };
+		3F158A1B2CB0602800FB82F1 /* tripManagerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tripManagerUITests.swift; sourceTree = "<group>"; };
+		3F158A1C2CB0602800FB82F1 /* tripManagerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tripManagerUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		3F926EA32CAF2592005C8307 /* tripManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tripManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F926EB32CAF2593005C8307 /* tripManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tripManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F926EBD2CAF2593005C8307 /* tripManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tripManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		3F926EA52CAF2592005C8307 /* tripManager */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = tripManager;
-			sourceTree = "<group>";
-		};
-		3F926EB62CAF2593005C8307 /* tripManagerTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = tripManagerTests;
-			sourceTree = "<group>";
-		};
-		3F926EC02CAF2593005C8307 /* tripManagerUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = tripManagerUITests;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		3F926EA02CAF2592005C8307 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F0A607E2CB0670600327D97 /* RswiftLibrary in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +90,81 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3F0A60822CB06CD500327D97 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				3F0A60852CB06CFA00327D97 /* AppStyle.swift */,
+				3F0A608B2CB0711300327D97 /* String+Extension.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		3F1589FF2CB0601D00FB82F1 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3F1589FE2CB0601D00FB82F1 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3F158A042CB0601D00FB82F1 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				3F158A002CB0601D00FB82F1 /* AvenirNext-Bold.ttf */,
+				3F158A012CB0601D00FB82F1 /* AvenirNext-DemiBold.ttf */,
+				3F158A022CB0601D00FB82F1 /* AvenirNext-Medium.ttf */,
+				3F158A032CB0601D00FB82F1 /* AvenirNext-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		3F158A072CB0601D00FB82F1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3F158A082CB0601D00FB82F1 /* Assets.xcassets */,
+				3F158A042CB0601D00FB82F1 /* Fonts */,
+				3F158A052CB0601D00FB82F1 /* Colors.xcassets */,
+				3F158A062CB0601D00FB82F1 /* Localizable.xcstrings */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		3F158A0C2CB0601D00FB82F1 /* tripManager */ = {
+			isa = PBXGroup;
+			children = (
+				3F0A60822CB06CD500327D97 /* Helper */,
+				3F1589FF2CB0601D00FB82F1 /* Preview Content */,
+				3F158A072CB0601D00FB82F1 /* Resources */,
+				3F158A092CB0601D00FB82F1 /* ContentView.swift */,
+				3F158A0A2CB0601D00FB82F1 /* Info.plist */,
+				3F158A0B2CB0601D00FB82F1 /* tripManagerApp.swift */,
+			);
+			path = tripManager;
+			sourceTree = "<group>";
+		};
+		3F158A192CB0602400FB82F1 /* tripManagerTests */ = {
+			isa = PBXGroup;
+			children = (
+				3F158A182CB0602400FB82F1 /* tripManagerTests.swift */,
+			);
+			path = tripManagerTests;
+			sourceTree = "<group>";
+		};
+		3F158A1D2CB0602800FB82F1 /* tripManagerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3F158A1B2CB0602800FB82F1 /* tripManagerUITests.swift */,
+				3F158A1C2CB0602800FB82F1 /* tripManagerUITestsLaunchTests.swift */,
+			);
+			path = tripManagerUITests;
+			sourceTree = "<group>";
+		};
 		3F926E9A2CAF2592005C8307 = {
 			isa = PBXGroup;
 			children = (
-				3F926EA52CAF2592005C8307 /* tripManager */,
-				3F926EB62CAF2593005C8307 /* tripManagerTests */,
-				3F926EC02CAF2593005C8307 /* tripManagerUITests */,
+				3F158A0C2CB0601D00FB82F1 /* tripManager */,
+				3F158A192CB0602400FB82F1 /* tripManagerTests */,
+				3F158A1D2CB0602800FB82F1 /* tripManagerUITests */,
 				3F926EA42CAF2592005C8307 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -106,12 +193,11 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				3F926EA52CAF2592005C8307 /* tripManager */,
+				3F0A60812CB0671500327D97 /* PBXTargetDependency */,
 			);
 			name = tripManager;
 			packageProductDependencies = (
+				3F0A607D2CB0670600327D97 /* RswiftLibrary */,
 			);
 			productName = tripManager;
 			productReference = 3F926EA32CAF2592005C8307 /* tripManager.app */;
@@ -129,9 +215,6 @@
 			);
 			dependencies = (
 				3F926EB52CAF2593005C8307 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				3F926EB62CAF2593005C8307 /* tripManagerTests */,
 			);
 			name = tripManagerTests;
 			packageProductDependencies = (
@@ -152,9 +235,6 @@
 			);
 			dependencies = (
 				3F926EBF2CAF2593005C8307 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				3F926EC02CAF2593005C8307 /* tripManagerUITests */,
 			);
 			name = tripManagerUITests;
 			packageProductDependencies = (
@@ -192,9 +272,13 @@
 			knownRegions = (
 				en,
 				Base,
+				fr,
 			);
 			mainGroup = 3F926E9A2CAF2592005C8307;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				3F0A607C2CB0670600327D97 /* XCRemoteSwiftPackageReference "R" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 3F926EA42CAF2592005C8307 /* Products */;
 			projectDirPath = "";
@@ -212,6 +296,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F158A0D2CB0601D00FB82F1 /* Preview Assets.xcassets in Resources */,
+				3F158A0E2CB0601D00FB82F1 /* AvenirNext-Bold.ttf in Resources */,
+				3F158A0F2CB0601D00FB82F1 /* AvenirNext-DemiBold.ttf in Resources */,
+				3F158A102CB0601D00FB82F1 /* AvenirNext-Medium.ttf in Resources */,
+				3F158A112CB0601D00FB82F1 /* AvenirNext-Regular.ttf in Resources */,
+				3F158A122CB0601D00FB82F1 /* Colors.xcassets in Resources */,
+				3F158A132CB0601D00FB82F1 /* Localizable.xcstrings in Resources */,
+				3F158A142CB0601D00FB82F1 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,6 +328,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F0A608C2CB0711300327D97 /* String+Extension.swift in Sources */,
+				3F0A60862CB06CFA00327D97 /* AppStyle.swift in Sources */,
+				3F158A162CB0601D00FB82F1 /* ContentView.swift in Sources */,
+				3F158A172CB0601D00FB82F1 /* tripManagerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -243,6 +339,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F158A1A2CB0602400FB82F1 /* tripManagerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,12 +347,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F158A1E2CB0602800FB82F1 /* tripManagerUITests.swift in Sources */,
+				3F158A1F2CB0602800FB82F1 /* tripManagerUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		3F0A60812CB0671500327D97 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			productRef = 3F0A60802CB0671500327D97 /* RswiftGenerateInternalResources */;
+		};
 		3F926EB52CAF2593005C8307 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 3F926EA22CAF2592005C8307 /* tripManager */;
@@ -328,6 +431,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -384,6 +488,7 @@
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -392,17 +497,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = primaryBlue;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"tripManager/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = tripManager/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Dyma Trip";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -420,17 +528,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = primaryBlue;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"tripManager/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = tripManager/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Dyma Trip";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -552,6 +663,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3F0A607C2CB0670600327D97 /* XCRemoteSwiftPackageReference "R" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/fthdgn/R.swift";
+			requirement = {
+				branch = "xcstrings-7.5.0";
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3F0A607D2CB0670600327D97 /* RswiftLibrary */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3F0A607C2CB0670600327D97 /* XCRemoteSwiftPackageReference "R" */;
+			productName = RswiftLibrary;
+		};
+		3F0A60802CB0671500327D97 /* RswiftGenerateInternalResources */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3F0A607C2CB0670600327D97 /* XCRemoteSwiftPackageReference "R" */;
+			productName = "plugin:RswiftGenerateInternalResources";
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 3F926E9B2CAF2592005C8307 /* Project object */;
 }
